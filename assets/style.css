@@ -1,0 +1,501 @@
+
+.logo{
+  width: auto;
+  height: 50px;
+  border-radius: 10px;
+}
+
+p,li{
+    font-family: 'Montserrat', Sans-serif !important;
+
+}
+
+/* Navbar default transparent */
+    .navbar-custom {
+      transition: background-color 0.4s ease;
+      background-color: transparent;
+  font-family: 'Montserrat', Sans-serif !important;
+    }
+    /* White bg when scrolled OR toggled */
+    .navbar-scrolled,
+    .navbar-toggler-open {
+      background-color: #fff !important;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    /* Navbar text default white */
+    .navbar-custom .navbar-brand,
+    .navbar-custom .nav-link {
+      color: white !important;
+      font-weight: 600;
+    }
+    /* Black text when scrolled OR toggled */
+    .navbar-scrolled .navbar-brand,
+    .navbar-scrolled .nav-link,
+    .navbar-toggler-open .navbar-brand,
+    .navbar-toggler-open .nav-link {
+      color: #000 !important;
+    }
+    /* Toggle icon white by default */
+    .navbar-custom .navbar-toggler {
+      border-color: white;
+    }
+    .navbar-custom .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,255,255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    /* Toggle icon black when open OR scrolled */
+    .navbar-scrolled .navbar-toggler,
+    .navbar-toggler-open .navbar-toggler {
+      border-color: #000;
+    }
+    .navbar-scrolled .navbar-toggler-icon,
+    .navbar-toggler-open .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280,0,0,1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    /* All devices menu open background white */
+    .navbar-toggler-open .navbar-collapse {
+      background-color: #fff;
+     
+    }
+    .navbar-toggler-open .navbar-collapse .nav-link {
+      color: #000 !important;
+    }
+    .navbar .nav-link{
+      margin-left: 20px;
+    }
+
+     /* Mobile devices */
+  @media (max-width: 768px) {
+    .hero-section-inline {
+      height: 60vh !important; /* height कम ताकि mobile पर fit हो */
+      background-position: center top !important;
+      padding: 20px;
+    }
+    .hero-section-inline h1 {
+      font-size: 2rem !important; /* heading छोटा */
+      padding: 9px;
+    }
+    .hero-section-inline p {
+      font-size: 1rem !important; /* paragraph छोटा */
+    }
+  }
+
+
+/* services section ==================== */
+.services-section .service-card {
+  border: 2px solid #023175!important;
+      font-family: 'Montserrat', Sans-serif !important;
+
+}
+.services-section .service-card h5 {
+color: #023175;
+}
+
+
+  /* ==================cab option================ */
+  .caboption {
+    background-color: #094281;
+            font-family: "Montserrat", Sans-serif !important;
+
+  }
+  .caboption i{
+    color: #094281;
+    
+  }
+  .caboption h5{
+    font-size: 600;
+    color: #094281;
+    font-size: 20px;
+  }
+
+  .cabbtn{
+        font-family: "Montserrat", Sans-serif !important;
+
+    background-color: #094281;
+    color: white;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .cabbtn:hover {
+    background-color: #094281;
+    color: #fff;
+  }
+
+.sectionupcursive {
+  font-family: 'Condiment', cursive !important;
+  color: #d4b483;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.subheadingh2 {
+  font-family: 'Montserrat', Sans-serif !important;
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Tablet devices */
+@media (max-width: 991px) {
+  .sectionupcursive {
+    font-size: 22px !important;
+  }
+  .subheadingh2 {
+    font-size: 30px;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 576px) {
+  .sectionupcursive {
+    font-size: 18px;
+  }
+  .subheadingh2 {
+    font-size: 24px;
+  }
+}
+.paraheading{
+  font-family: 'Montserrat', Sans-serif !important;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+
+/* card desitination design */
+.destination-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .destination-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+  .destination-img {
+    width: 100%;
+    height: auto; /* Fixed height */
+    object-fit: cover;
+    display: block;
+  }
+  .hidden-section-unique {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.6s ease;
+  }
+  .hidden-section-unique.open {
+    max-height: 2000px; /* enough for multiple rows */
+  }
+  .view-more-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
+  .btndestination{
+      font-family: "Montserrat", Sans-serif !important;
+
+    background-color: #094281;
+    color: white;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+
+
+  /* my google reviews */
+  
+
+.my-custom-carousel .my-carousel-item {
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 5px;
+  background-color: #f8f8f8;
+    font-family: 'Montserrat', Sans-serif !important;
+
+}
+.my-review-card img.my-review-img {
+  width: 70px !important;
+  height: 70px !important;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.my-review-card img.my-review-img2 {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  margin-top: 50px;
+margin-left: -25px;
+}
+
+.my-review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.my-review-name {
+  font-weight: bold;
+  margin-left: 12px;
+}
+.my-review-verified {
+  color: #3498db;
+  margin-left: 6px;
+}
+.my-review-date {
+  font-size: 13px;
+  color: #7f8c8d;
+  margin-left: 10px;
+}
+.my-review-rating {
+  color: #fcbf02;
+  margin: 12px 0;
+}
+.my-review-text {
+  font-size: 16px;
+}
+.owl-nav button.owl-prev,
+.owl-nav button.owl-next {
+  background: #3498db;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 22px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.owl-nav button.owl-prev {
+  left: -55px;
+}
+.owl-nav button.owl-next {
+  right: -55px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .my-custom-carousel .my-carousel-item {
+    padding: 15px;
+  }
+  .my-review-card img.my-review-img {
+    width: 60px;
+    height: 60px;
+  }
+  .my-review-text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 576px) {
+  .my-custom-carousel .my-carousel-item {
+    padding: 10px;
+  }
+  .my-review-card img.my-review-img {
+    width: 50px;
+    height: 50px;
+  }
+  .my-review-text {
+    font-size: 13px;
+  }
+}
+
+
+
+
+
+
+
+
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .googlereview {
+        text-align: center;
+    }
+    .star-rating {
+font-size: 15px;
+    }
+}
+
+.googlelogofull {
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.googlereview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star-rating {
+    margin-left: 10px;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.bgreviews{
+  background-color:#f8f8f8 ;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+
+
+
+/* faq section */
+.accordion-button {
+    font-weight: 500;
+    color: #333;
+    position: relative;
+  }
+  
+  .accordion-button.collapsed::after {
+    transform: rotate(0deg);
+    transition: transform 0.3s;
+  }
+  .accordion-button:not(.collapsed)::after {
+    transform: rotate(180deg);
+    transition: transform 0.3s;
+  }
+  .accordion-button:hover {
+    background-color: #fff;
+    color: #007bff;
+  }
+  .faq-section{
+    font-family: "Montserrat", Sans-serif !important;
+    padding: 40px 0;
+  }
+
+
+  /* Most Popular Routes Section */
+.popular-routes {
+
+  padding: 40px 0;
+}
+
+.routes-heading {
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.route-link {
+  color: #094281;
+  text-decoration: none;
+  display: block;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+  font-size: .9rem;
+  list-style: none;
+    font-family: 'Montserrat', Sans-serif !important;
+font-weight: 600;}
+
+.route-link:hover {
+  color: #141412; /* Golden hover */
+  text-decoration: underline;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  background-color: rgba(255,255,255,0.1);
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: white;
+  color: #2b2b2b;
+}
+
+.footerlogo{
+  width: 100px;
+  height: 50px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+footer , p{
+  font-size: 14px !important;
+  
+}
+/* sticky websites */
+/* Common Style for Sticky Buttons */
+.sticky-whatsapp,
+.sticky-call {
+  position: fixed;
+  bottom: 20px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  line-height: 55px;
+  font-size: 26px;
+  z-index: 9999;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.sticky-whatsapp:hover,
+.sticky-call:hover {
+  transform: scale(1.1);
+}
+
+/* WhatsApp Button (Left Side) */
+.sticky-whatsapp {
+  left: 20px;
+  background-color: #25D366;
+}
+
+/* Call Button (Right Side) */
+.sticky-call {
+  right: 20px;
+  background-color: #28a745;
+}
