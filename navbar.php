@@ -7,9 +7,9 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="About.php">About Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Cab Booking</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="best_cab_services_in_india.php">Cab Booking</a></li>
+          <li class="nav-item"><a class="nav-link" href="contactus.php">Contact Us</a></li>
         </ul>
       </div>
     </div>

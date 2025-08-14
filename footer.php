@@ -9,7 +9,7 @@
           <p>Best Cab and Taxi Services</p>
          <p>
             <strong>Laksh Taxi</strong> offers reliable, affordable 
-            <strong>cab service in Delhi NCR</strong>, including outstation trips, one-way cabs, round trips, 
+            <strong>cab service in Kanpur</strong>, including outstation trips, one-way cabs, round trips, 
             and airport transfers. Enjoy safe, comfortable rides to Manali, Jaipur, Haridwar, and more with 
             24/7 support and professional drivers.
          </p>
@@ -19,11 +19,10 @@
         <div class="col-lg-2 col-md-4 col-6 mb-4">
           <h6 class="fw-bold">Quick Links</h6>
           <ul class="list-unstyled footer-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Cab Booking</a></li>
-            <li><a href="#">Tour Package</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="best_cab_services_in_india.php">Cab Booking</a></li>
+            <li><a href="contactus.php">Contact Us</a></li>
+            <li><a href="about.php">About Us</a></li>
           </ul>
         </div>
 
@@ -73,9 +72,9 @@
         </div>
         <div class="col-md-6 text-md-end">
           <span class="fw-bold">Stay Connected:</span>
-          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-          <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.facebook.com/share/19543kFUk1/" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/lakshtaxi?igsh=bjMzenJtZHk5d3Vw" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="https://youtube.com/@lakshtaxiofficial2094?si=trcKniOye_nR8dVX" class="social-icon"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
     </div>
